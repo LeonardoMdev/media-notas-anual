@@ -35,7 +35,7 @@ namespace Estudo02
             nota03 = int.Parse(txtNota3.Text);
             nota04 = int.Parse(txtNota4.Text);
 
-            mediaNotas = nota01 + nota02 + nota03 + nota04 / 4;
+            mediaNotas = (nota01 + nota02 + nota03 + nota04)/ 4;
 
             txtResultado.Text = Convert.ToString(mediaNotas);
         }
